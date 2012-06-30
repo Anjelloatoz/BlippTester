@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:padding="7px"
+  android:layout_height="?android:attr/listPreferredItemHeight">
+   
+   <FrameLayout
+   android:id="@+id/left_cat_frame" 
+	android:layout_width="80sp" 
+	android:layout_height="80sp"
+	android:layout_alignParentTop="true"
+    android:layout_alignParentBottom="true"
+    android:layout_marginRight="6dip"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	<ImageView 
+   android:id="@+id/cat_feature_background_left"
+   android:src="@drawable/cell_product_left_image"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:scaleType="fitXY"/>
+   
+   <ImageView 
+   android:id="@+id/cat_feature_gloss_left"
+   android:src="@drawable/cell_product_left_image_gloss"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:scaleType="fitXY"/>
+	
+	</FrameLayout>
+   
+   <TextView
+   android:textAppearance="?android:attr/textAppearanceLarge"
+   android:id="@+id/name"
+   android:textColor="#FFFFFF"
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:text="Name"
+   android:layout_toRightOf="@id/left_cat_frame"
+   android:layout_alignParentTop="true"
+   android:layout_alignParentRight="true"
+   android:singleLine="true"
+   android:ellipsize="marquee"
+   android:textStyle="bold"/>
+   
+   <TextView
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:layout_toRightOf="@id/left_cat_frame"
+   android:layout_alignParentRight="true"
+   android:layout_below="@id/name"
+   android:layout_alignWithParentIfMissing="true"
+   android:gravity="center_vertical"
+   android:textColor="#CCCCFF"
+   android:textSize="19sp"
+   android:id="@+id/date"
+   android:singleLine="true"
+   android:ellipsize="marquee"
+   android:text="Date"/>
+   
+   <TextView
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:layout_toRightOf="@id/left_cat_frame"
+   android:layout_alignParentRight="true"
+   android:layout_below="@id/date"
+   android:layout_alignWithParentIfMissing="true"
+   android:gravity="center_vertical"
+   android:textColor="#CCCCFF"
+   android:textSize="19sp"
+   android:id="@+id/blipps"
+   android:singleLine="true"
+   android:ellipsize="marquee"
+   android:text="Blipps"/>
+</RelativeLayout>

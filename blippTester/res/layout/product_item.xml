@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="6dip">
+    
+    <ImageView 
+   android:id="@+id/left_cat_image"
+   android:layout_width="90sp"
+   android:layout_height="90sp"
+   android:scaleType="fitXY"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dip"
+        android:layout_weight="3"
+        android:layout_height="wrap_content">
+        <TextView
+	        android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/name"
+            android:textColor="#FFFFFF"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="Top"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#CCCCFF"
+            android:textSize="19sp"
+            android:id="@+id/date"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:text="Bottom"/>
+            
+            <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content">
+        	
+        	<TextView
+        	android:text="Comments"
+        	android:id="@+id/comments_textview"
+        	android:textColor="#CCCCFF"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textSize="19sp"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            />
+            
+            <ImageView
+            android:id="@+id/stars_image"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY"/>
+            </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="6dip">
+    
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dip"
+        android:layout_weight="0.7"
+        android:layout_height="wrap_content">
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#FFFFFF"
+            android:textSize="19sp"
+            android:id="@+id/comment_name"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:text=" comments"
+            android:textStyle="bold"/>
+            
+            <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#CCCCFF"
+            android:textSize="19sp"
+            android:id="@+id/comment_date"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:text="comment date"/>
+            
+            <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#CCCCFF"
+            android:textSize="14sp"
+            android:id="@+id/comment_text"
+            android:singleLine="false"
+            android:lines="4"
+            android:text="Comment goes here"/>
+        
+        </LinearLayout>
+        
+        <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dip"
+        android:layout_weight="0.3"
+        android:layout_height="wrap_content">
+        
+        <ImageView
+            android:id="@+id/stars_image"
+            android:src="@drawable/stars_5"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitCenter"/>
+        
+        </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  
+  <LinearLayout android:id="@+id/LinearLayout1"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center">
+      <Button android:text="Cadbury"
+      android:id="@+id/custombutton"
+      style="@style/cell_feature.Button"
+      android:layout_width="wrap_content"
+      android:layout_height="50sp"
+      android:layout_weight="1"
+      android:drawableTop="@drawable/icon"
+      />
+      
+      <Button android:text="Oyster"
+       android:id="@+id/button2"
+       style="@style/cell_feature.Button"
+       android:layout_height="50sp"
+       android:layout_width="wrap_content"
+       android:layout_weight="1"
+       android:drawableTop="@drawable/icon">
+      </Button>
+    
+</LinearLayout>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center">
+  
+  <Button
+       android:text="categories"
+       android:id="@+id/button1"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_weight="1">       
+      </Button>
+      
+      <Button
+       android:text="latest"
+       android:id="@+id/button2"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_weight="1">
+      </Button>
+      
+      <Button
+       android:text="popular"
+       android:id="@+id/button1"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_weight="1">
+      </Button>
+      
+      <Button
+       android:text="a-z"
+       android:id="@+id/button2"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_weight="1">
+      </Button>
+  
+  </LinearLayout>
+  
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:padding="6dip" android:layout_height="wrap_content">
+    <ImageView 
+   android:id="@+id/left_cat_image"
+   android:layout_width="90sp"
+   android:layout_height="90sp"
+   android:scaleType="fitXY"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+        <TextView
+	        android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/name"
+            android:textColor="#FFFFFF"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="Top"
+            android:textStyle="bold" android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#CCCCFF"
+            android:textSize="19sp"
+            android:id="@+id/date"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:text="Bottom"/>
+            <TextView
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:textColor="#CCCCFF"
+            android:textSize="19sp"
+            android:id="@+id/blipps"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:text="Bottom" android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</LinearLayout>
+    
+</LinearLayout>

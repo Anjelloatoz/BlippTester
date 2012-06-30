@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="match_parent"
+  android:padding="7px"
+  android:layout_height="?android:attr/listPreferredItemHeight">
+  <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1"
+    android:id="@+id/feature_table">
+    <TableRow>
+        <FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="150sp"
+  android:layout_height="90sp"
+  android:clickable="true">
+  
+  <ImageView 
+   android:id="@+id/cat_feature_background_left"
+   android:src="@drawable/cell_feature_background"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:scaleType="fitXY"/>
+   
+   <ImageView 
+   android:id="@+id/cat_feature_gloss_left"
+   android:src="@drawable/cell_feature_gloss"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:scaleType="fitXY"/>
+    
+</FrameLayout>
+        <FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="150sp"
+  android:layout_height="90sp"
+  android:clickable="true">
+  
+  <ImageView 
+   android:id="@+id/cat_feature_background_left"
+   android:src="@drawable/cell_feature_background"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:scaleType="fitXY"/>
+   
+   <ImageView 
+   android:id="@+id/cat_feature_gloss_left"
+   android:src="@drawable/cell_feature_gloss"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:scaleType="fitXY"/>
+    
+</FrameLayout>
+    </TableRow>
+    
+  </TableLayout>
+    
+    
+	
+	
+
+</RelativeLayout>

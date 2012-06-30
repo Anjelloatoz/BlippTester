@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MainLeftButton.Button" parent="@android:style/Widget.Button">
+    <item name="android:background">@drawable/left_button</item>
+    </style>
+    <style name="MainMidButton.Button" parent="@android:style/Widget.Button">
+    <item name="android:background">@drawable/mid_button</item>
+    </style>
+    <style name="MainRightButton.Button" parent="@android:style/Widget.Button">
+    <item name="android:background">@drawable/right_button</item>
+    </style>
+    <style name="cell_feature.Button" parent="@android:style/Widget.Button">
+    <item name="android:background">@drawable/feature_button</item>
+    </style>
+    <style name="left.Button" parent="@android:style/Widget.Button">
+    <item name="android:background">@drawable/top_left_button</item>
+    <item name="android:gravity">center_vertical|center_horizontal</item>
+    <item name="android:textColor">#FFFFFFFF</item>
+    <item name="android:shadowColor">#FF000000</item>
+    <item name="android:shadowDx">0</item>
+    <item name="android:shadowDy">-1</item>
+    <item name="android:shadowRadius">0.2</item>
+    <item name="android:textSize">15dip</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:focusable">true</item>
+    <item name="android:clickable">true</item>
+    </style>
+    <style name="middle.Button" parent="@android:style/Widget.Button">
+    <item name="android:background">@drawable/top_middle_button</item>
+    <item name="android:gravity">center_vertical|center_horizontal</item>
+    <item name="android:textColor">#FFFFFFFF</item>
+    <item name="android:shadowColor">#FF000000</item>
+    <item name="android:shadowDx">0</item>
+    <item name="android:shadowDy">-1</item>
+    <item name="android:shadowRadius">0.2</item>
+    <item name="android:textSize">15dip</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:focusable">true</item>
+    <item name="android:clickable">true</item>
+    </style>
+    <style name="right.Button" parent="@android:style/Widget.Button">
+    <item name="android:background">@drawable/top_right_button</item>
+    <item name="android:gravity">center_vertical|center_horizontal</item>
+    <item name="android:textColor">#FFFFFFFF</item>
+    <item name="android:shadowColor">#FF000000</item>
+    <item name="android:shadowDx">0</item>
+    <item name="android:shadowDy">-1</item>
+    <item name="android:shadowRadius">0.2</item>
+    <item name="android:textSize">15dip</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:focusable">true</item>
+    <item name="android:clickable">true</item>
+    </style>
+</resources>

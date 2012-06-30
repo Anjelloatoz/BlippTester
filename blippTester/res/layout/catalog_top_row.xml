@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="match_parent"
+  android:padding="7px"
+  android:layout_height="?android:attr/listPreferredItemHeight">
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/feature_table"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="1">
+    
+    </TableLayout>
+	
+	<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:gravity="center"
+  android:layout_below="@id/feature_table"
+  android:paddingTop="15px"
+  android:paddingBottom="5px"
+  android:layout_alignParentBottom="true">
+  
+  <Button
+       android:text="categories"
+       style="@style/left.Button"
+       android:id="@+id/categories_button"
+       android:layout_width="fill_parent"
+       android:layout_height="80px"
+       android:layout_weight="1">       
+      </Button>
+      
+      <Button
+       android:text="latest"
+       style="@style/middle.Button"
+       android:id="@+id/latest_button"
+       android:layout_width="fill_parent"
+       android:layout_height="80px"
+       android:layout_weight="1">
+      </Button>
+      
+      <Button
+       android:text="popular"
+       style="@style/middle.Button"
+       android:id="@+id/popular_button"
+       android:layout_width="fill_parent"
+       android:layout_height="80px"
+       android:layout_weight="1">
+      </Button>
+      
+      <Button
+       android:text="a-z"
+       style="@style/right.Button"
+       android:id="@+id/az_button"
+       android:layout_width="fill_parent"
+       android:layout_height="80px"
+       android:layout_weight="1">
+      </Button>
+  
+  </LinearLayout>
+
+</RelativeLayout>

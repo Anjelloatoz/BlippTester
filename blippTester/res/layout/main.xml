@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:id="@+id/main_panel"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:gravity="center|fill">
+
+	<ViewFlipper android:id="@+id/flipper"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:layout_below="@+id/CockpitLayout">
+	
+		<include android:id="@+id/firstlayout"
+		layout="@layout/catalogue" />
+		
+		<include android:id="@+id/secondlayout"
+		layout="@layout/blipp" />
+		
+		<include android:id="@+id/thirdlayout"
+		layout="@layout/my_blipps" />
+
+	</ViewFlipper>
+
+
+    <anjelloatoz.blippAR.AnimatedPanel
+    android:id="@+id/transparent_panel"
+    android:paddingLeft="5px"
+    android:paddingTop="5px"
+    android:paddingRight="5px"
+    android:paddingBottom="5px"
+    android:gravity="bottom"
+    android:layout_alignParentBottom="true"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_gravity="fill_vertical">
+    
+    	<LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/main_menu_panel"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        	<Button android:id="@+id/left"
+        	style="@style/MainLeftButton.Button"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text=""/>
+    
+		    <Button android:id="@+id/mid"
+		    style="@style/MainMidButton.Button"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text=""/>
+    
+    		<Button android:id="@+id/right"
+    		style="@style/MainRightButton.Button"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text=""/>
+	    </LinearLayout>
+
+    </anjelloatoz.blippAR.AnimatedPanel>    
+</RelativeLayout>
